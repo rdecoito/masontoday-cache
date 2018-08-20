@@ -31,6 +31,8 @@ def cache_sources():
 # cache the sources at 8 PM every day
 schedule.every().day.at("20:00").do(cache_sources)
 
+print("Initiated!")
+
 do_it = True
 while (do_it):
     schedule.run_pending()
