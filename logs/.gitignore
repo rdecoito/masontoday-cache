@@ -1,0 +1,8 @@
+# This directory is used to store all the files made by the cacheing system.
+# These cached files should not be stored on git, but the folder should still
+# exist. Therefore, this directory exists, but is kept empty
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
